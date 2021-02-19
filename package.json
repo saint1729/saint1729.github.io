@@ -1,9 +1,9 @@
 {
-  "name": "devfolio",
+  "name": "saint1729",
   "private": true,
-  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
+  "description": "This is the personal website of Sai Nikhil, an aspiring Machine Learning Engineer.",
   "version": "0.1.0",
-  "author": "Ryan Fitzgerald",
+  "author": "Sai Nikhil Thirandas",
   "dependencies": {
     "gatsby": "^2.24.67",
     "gatsby-image": "^2.4.20",
@@ -37,7 +37,18 @@
     "tailwindcss": "^1.8.13"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "saint1729",
+    "Sai Nikhil",
+    "Machine Learning",
+    "Mathematician",
+    "Applied Mathematician",
+    "Mathematics",
+    "Applied Mathematics",
+    "Sai Nikhil Thirandas",
+    "Linear Algebra",
+    "Probability",
+    "Calculus and Optimization"
   ],
   "license": "MIT",
   "scripts": {
@@ -46,13 +57,14 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "https://github.com/saint1729/saint1729.github.io"
   },
   "bugs": {
-    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
+    "url": "https://github.com/saint1729/saint1729.github.io/issues"
   }
 }
