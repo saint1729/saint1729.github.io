@@ -1,9 +1,8 @@
-name: Gatsby Publish
+name: Publish Personal Site
 
 on:
   push:
-    branches:
-      - dev
+    branches: [ dev ]
 
 jobs:
   build:
