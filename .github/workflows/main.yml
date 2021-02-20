@@ -1,4 +1,4 @@
-name: Publish saint1729 Personal Site
+name: Publish saint1729 personal website
 
 on:
   push:
@@ -14,3 +14,13 @@ jobs:
           access-token: ${{ secrets.portfolio }}
           deploy-branch: main
           gatsby-args: --prefix-paths
+      - uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.portfolio }}
+          src_branch: dev
+          src_path: /documents/.
+          dst_branch: main
+          dst_path: /.
+          dst_owner: saint1729
+          dst_repo_name: saint1729.github.io
+          file_filter: *
