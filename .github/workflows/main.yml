@@ -24,3 +24,4 @@ jobs:
           dst_owner: saint1729
           dst_repo_name: saint1729.github.io
           file_filter: *
+          commit_message: "Copied by copycat-action"
