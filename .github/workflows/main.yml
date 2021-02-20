@@ -1,4 +1,4 @@
-name: Publish Personal Site
+name: Publish saint1729 Personal Site
 
 on:
   push:
@@ -13,3 +13,4 @@ jobs:
         with:
           access-token: ${{ secrets.portfolio }}
           deploy-branch: main
+          gatsby-args: --prefix-paths
