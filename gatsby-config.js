@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Sai Nikhil | Graduate Student - Applied Mathematics | Aspiring Machine Learning Engineer`,
     // Description that goes under your name in main bio
-    description: `An aspiring Machine Learning Engineer. I'm looking for internships and co-ops in Machine Learning/Data Science for Summer 2021`,
+    description: `I am a graduate student currently pursuing Masters in Applied Mathematics with a concentration in Machine Learning, from Northeastern University. I completed B. Tech (Hons.) from IIT Kharagpur. My primary strengths include Data Structure & Algorithm Implementation, System Designing. Besides this, I hold a strong background in Mathematics, specifically in areas of Calculus, Linear Algebra, Probability & Statistics. I'm looking for research internship in Machine Learning for Fall 2021.`,
     // Optional: Twitter account handle
     author: `@saint1729`,
     // Optional: Github account URL
@@ -19,22 +19,28 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'FaceNet - Face Recognition',
+        description:
+          'Encoded face image into 128-dimension feature vector (one-shot learning) using FaceNet. Implemented Triplet Loss function to compare Anchor, Positive, and Negative images in training data. Performed face verification and face recognition using the above encodings.',
+        link: 'https://github.com/saint1729/coursera/blob/master/deep-learning/convoutional-neural-networks/week4/Face_Recognition.ipynb',
+      },
+      {
+        name: 'Debiasing Word Vectors',
+        description:
+          'Used 50-dimensional GloVe vectors to represent words. Performed Word Analogy task. Implemented equalization algorithm presented in Boliukbasi et al., 2016 to remove gender bias.',
+        link: 'https://github.com/saint1729/coursera/blob/master/deep-learning/nlp-sequence-models/week2/Operations_on_word_vectors_v2a.ipynb',
+      },
+      {
+        name: 'Neural Machine Translation',
+        description:
+          'Implemented NMT model to translate human-readable dates into machine readable dates using a Bidirectional LSTM and Attention Mechanism.',
+        link: 'https://github.com/saint1729/coursera/blob/master/deep-learning/nlp-sequence-models/week3/Neural_machine_translation_with_attention_v4a.ipynb',
+      },
+      {
         name: 'Data Modeling - Markov Chain',
         description:
-          'Performed Time Series Analysis of average runs of opening batters in baseball from years 1871 – 2015 with a Markov Chain with 9 states on the dataset (rows = 101,333) obtained from Sean Lahman\'s website.',
+          'Performed Time Series Analysis of average runs of opening batters in baseball from 1871 – 2015 with a Markov Chain. Calculated autocorrelation between original time series and a simulated time series. Performed GoF test at 5 % significance level to determine valid states of Markov Chain in a two-step transition matrix.',
         link: 'http://saint1729.me/MATH7241.pdf',
-      },
-      {
-        name: 'Predator-Prey Mathematical Modeling',
-        description:
-          'Modeled Predator (Bald Eagle) – Prey (Rodents) population growth using Lotka-Volterra equations modified with weak Allee effect and pesticide constant and obtained simulated population plots with/independent of time.',
-        link: 'http://saint1729.me/MATH5131.pdf',
-      },
-      {
-        name: 'Algorithm for coupled time-varying Ordinary Differential Equations',
-        description:
-          'Proposed analytical solution for solving special cases (constant coefficient, self-symmetric) for set of first order coupled time varying coefficient ordinary differential equations. Also, implemented Runge-Kutta 4th order algorithm for solving set of non-homogenous coupled time varying ODEs.',
-        link: 'http://saint1729.me/IITKGP.pdf',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
