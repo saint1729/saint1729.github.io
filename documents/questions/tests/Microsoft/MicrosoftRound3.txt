@@ -1,0 +1,100 @@
+package com.codility;
+
+// you can also use imports, for example:
+// import java.util.*;
+
+public class Solution {
+    
+    
+    public static class TreeNode {
+        int data;
+        TreeNode left, right;
+        
+        TreeNode(int data) {
+            this.data = data;
+            left = right = null;
+        }
+    }
+    
+    
+    public static void printNodesSimple(TreeNode root, int k) {
+        
+        if(root == null) {
+            return;
+        }
+        
+        if(k == 0) {
+            System.out.print(root.data + " ");
+            return;
+        }
+        
+        printNodesSimple(root.left, k - 1);
+        printNodesSimple(root.right, k - 1);
+        
+    }
+    
+    public static int printNodes(TreeNode root, TreeNode target, int k) {
+        
+        if (root == null) {
+            return -1;
+        } 
+        
+        if(target == root) {
+            printNodesSimple(target, k);
+            return 0;
+        }
+        
+        int leftDistance = printNodes(root.left, target, k);
+        
+        if(leftDistance >= 0) {
+            if((leftDistance + 1) == k) {
+                System.out.println(root.data + " ");
+            } else {
+                printNodesSimple(root.right, k - leftDistance - 2);
+            }
+            
+            return (leftDistance + 1);
+        }
+        
+        int rightDistance = printNodes(root.right, target, k);
+        
+        if(rightDistance >= 0) {
+            if((rightDistance + 1) == k) {
+                System.out.println(root.data + " ");
+            } else {
+                printNodesSimple(root.left, k - rightDistance - 2);
+            }
+            
+            return (rightDistance + 1);
+        }
+        
+        
+        return -1;
+        
+    }
+    
+
+    public static void main(String [] args) {
+
+        TreeNode root = new TreeNode(20);
+        
+        root.left = new TreeNode(8);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(12);
+        root.left.right.left = new TreeNode(10);
+        root.left.right.right = new TreeNode(14);
+        root.right = new TreeNode(22);
+        root.right.right = new TreeNode(24);
+
+        TreeNode target = root.left;
+    
+    
+        // printNodesSimple(root.left, 2);
+        
+        printNodes(root, target, 2);
+        
+    
+    }
+    
+    
+}
