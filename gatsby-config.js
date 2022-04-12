@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Sai Nikhil | Graduate Student - Applied Mathematics | Aspiring Machine Learning Engineer`,
     // Description that goes under your name in main bio
-    description: `I am a graduate student currently pursuing Masters in Applied Mathematics with a concentration in Machine Learning, from Northeastern University. I completed B. Tech (Hons.) from IIT Kharagpur. My primary strengths include Data Structure & Algorithm Implementation, System Designing. Besides this, I hold a strong background in Mathematics, specifically in areas of Calculus, Linear Algebra, Probability & Statistics. I'm looking for research internship in Machine Learning for Fall 2021.`,
+    description: `I am a graduate student currently pursuing Masters in Applied Mathematics with a concentration in Machine Learning, from Northeastern University. I completed B. Tech (Hons.) from IIT Kharagpur. My primary strengths include Data Structure & Algorithm Implementation, System Designing. Besides this, I hold a strong background in Mathematics, specifically in areas of Calculus, Linear Algebra, Probability & Statistics. I'm looking for looking for fulltime opportunites in the Machine Learning space.`,
     // Optional: Twitter account handle
     author: `@saint1729`,
     // Optional: Github account URL
@@ -18,6 +18,18 @@ module.exports = {
     about: `I'm pursuing a master's degree in Applied Mathematics at Northeastern University - College of Science with a concentration in Machine Learning and Statistics.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: 'Matrix Factorization for User Rating Predictions',
+        description:
+          'Derived update rules and implemented Weighted Alternating Least Squares for predicting missing user ratings of MovieLens data. Improved MSE by 62 % compared to baseline (mean predicting) model.',
+        link: 'https://colab.research.google.com/drive/1u8FoCOaL9ugfm8udb7MYYgFeOyLQPObW?usp=sharing',
+      },
+      {
+        name: 'Data Modeling - Markov Chain',
+        description:
+          'Performed Time Series Analysis of average runs of opening batters in baseball from 1871 – 2015 with a Markov Chain. Calculated autocorrelation between original time series and a simulated time series. Performed GoF test at 5 % significance level to determine valid states of Markov Chain in a two-step transition matrix.',
+        link: 'http://saint1729.me/MATH7241.pdf',
+      },
       {
         name: 'FaceNet - Face Recognition',
         description:
@@ -30,28 +42,16 @@ module.exports = {
           'Used 50-dimensional GloVe vectors to represent words. Performed Word Analogy task. Implemented equalization algorithm presented in Boliukbasi et al., 2016 to remove gender bias.',
         link: 'https://github.com/saint1729/coursera/blob/master/deep-learning/nlp-sequence-models/week2/Operations_on_word_vectors_v2a.ipynb',
       },
-      {
-        name: 'Neural Machine Translation',
-        description:
-          'Implemented NMT model to translate human-readable dates into machine readable dates using a Bidirectional LSTM and Attention Mechanism.',
-        link: 'https://github.com/saint1729/coursera/blob/master/deep-learning/nlp-sequence-models/week3/Neural_machine_translation_with_attention_v4a.ipynb',
-      },
-      {
-        name: 'Data Modeling - Markov Chain',
-        description:
-          'Performed Time Series Analysis of average runs of opening batters in baseball from 1871 – 2015 with a Markov Chain. Calculated autocorrelation between original time series and a simulated time series. Performed GoF test at 5 % significance level to determine valid states of Markov Chain in a two-step transition matrix.',
-        link: 'http://saint1729.me/MATH7241.pdf',
-      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'Microsoft',
-        description: 'Software Engineer II (L62), September 2020 - September 2020.',
+        description: 'Senior Software Engineer, September 2020 - September 2020.',
         link: 'https://www.microsoft.com/',
       },
       {
-        name: 'Hitachi Vantara',
+        name: 'Waterline Data Science',
         description: 'Senior Software Engineer, December 2018 - August 2020',
         link: 'https://www.hitachivantara.com/en-us/products/data-management-analytics/lumada-data-catalog.html',
       },
@@ -71,21 +71,22 @@ module.exports = {
       {
         name: 'Languages',
         description:
-          'Python, R, Java, SQL, PHP, Perl, HTML, CSS, TypeScript, Visual Basic, MATLAB, Mathematica',
+          'Python, Java, R, C/C++, MATLAB, Mathematica, SQL, PHP, Perl, HTML, CSS, TypeScript, XML, JSON, Visual Basic',
       },
       {
         name: 'Machine Learning',
-        description: 'Regression, Classification, Clustering, Dimensionality Reduction, Decision Trees, Random Forests, Bagging, Boosting, Neural Networks, Feature Engineering, Principal Component Analysis',
+        description:
+          'Regression, Classification, Ranking, Clustering, Dimensionality Reduction, Bagging, Boosting, Feature Engineering, Neural Networks, Deep Learning, Computer Vision, Natural Language Processing, Optical Character Recognition, Template Matching',
       },
       {
         name: 'Frameworks',
         description:
-          'Hadoop, Apache Spark, NumPy, pandas, Matplotlib, scikit-learn, SymPy, Jupyter',
+          'PyTorch, TensorFlow, OpenCV, NumPy, pandas, Matplotlib, scikit-learn, SymPy, Spark, Angular, Spring, JUnit, Mockito',
       },
       {
         name: 'Additional',
         description:
-          'Git, Jenkins, JIRA, Docker, Excel, IntelliJ IDEA, PyCharm',
+          'Git, Jupyter Notebook, Linux, Docker, Kafka, Hadoop, Hive, Zookeeper, Elasticsearch, PyCharm, IntelliJ IDEA, Oracle BI Publisher',
       },
     ],
   },

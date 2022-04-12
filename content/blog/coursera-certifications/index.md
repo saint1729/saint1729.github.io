@@ -6,6 +6,18 @@ description: 'This article contains verified ✅  certification links to all the
 
 This article contains verified ✅  certification links to all the courses I completed on Coursera.
 
+## Specialization: Machine Learning Engineering for Production (MLOps)
+### Courses:
+1. Introduction to Machine Learning in Production
+      - Certificate: https://www.coursera.org/account/accomplishments/certificate/Q72RPZG48CKC
+2. Machine Learning Data Lifecycle in Production
+      - Certificate: https://www.coursera.org/account/accomplishments/certificate/VC76A2YAQTZB
+3. Machine Learning Modeling Pipelines in Production
+      - Certificate: https://www.coursera.org/account/accomplishments/certificate/N3268PX9LMPK
+4. Deploying Machine Learning Models in Production
+      - Certificate: Ongoing
+
+
 ## Specialization: Deep Learning
 ### Certificate: https://www.coursera.org/account/accomplishments/specialization/certificate/95A5RPFS8YQT
 ### Courses:
