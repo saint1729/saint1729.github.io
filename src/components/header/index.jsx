@@ -39,26 +39,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a
                 className={classes.link}
-                href="http://saint1729.me/resume.pdf"
-              target="_blank" rel="noreferrer" >
-                Resume
-              </a>
-            </li>
-          )}
-          {(
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href="http://saint1729.me/coverletter.pdf"
-              target="_blank" rel="noreferrer" >
-                Cover Letter
-              </a>
-            </li>
-          )}
-          {(
-            <li className={classes.item}>
-              <a
-                className={classes.link}
                 href="http://saint1729.me/transcript.pdf"
               target="_blank" rel="noreferrer" >
                 Transcript
