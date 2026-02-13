@@ -1,12 +1,29 @@
+// Import auto-generated navigation order
+// This file is created during build from the GitHub repo content
+let forcedNavOrder;
+try {
+  forcedNavOrder = require('./navigation-order.js');
+} catch (error) {
+  // Fallback if navigation-order.js doesn't exist yet (first build)
+  console.warn('navigation-order.js not found, using default navigation order');
+  forcedNavOrder = [
+    '/',
+    '/chapter_01/prompt_chaining',
+    '/chapter_02/routing',
+    '/chapter_03/parallelization',
+    '/chapter_04/reflection'
+  ];
+}
+
 const config = {
   gatsby: {
-    pathPrefix: '/blog/agentic-design-patterns',
+    pathPrefix: '/books/agentic-design-patterns',
     siteUrl: 'https://saint1729.me',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: '/blog/agentic-design-patterns/logo.jpg',
+    logo: '/books/agentic-design-patterns/logo.jpg',
     logoLink: '/',
     title: "Agentic Design Patterns",
     githubUrl: 'https://github.com/saint1729/agentic-design-patterns',
@@ -26,15 +43,7 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: [
-      '/',
-      '/chapter_01/prompt-chaining',
-      '/chapter_02/routing',
-      '/chapter_03/parallelization',
-      '/chapter_04/reflection',
-      '/chapter_05/tool_use',
-      '/chapter_06/planning',
-    ],
+    forcedNavOrder: forcedNavOrder,
     collapsedNav: [],
     links: [
       { text: 'Portfolio', link: '/' },
