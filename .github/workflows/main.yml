@@ -1,0 +1,49 @@
+name: Build and merge dev to main
+
+on:
+  push:
+    branches: [ dev ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev branch
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build site (test build)
+        run: npm run build
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+      
+      - name: Merge dev to main and copy documents
+        if: success()
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git checkout main
+          git merge dev --no-ff --allow-unrelated-histories -m "Auto-merge dev to main after successful build"
+          
+          # Copy documents folder to root (for CNAME, etc.)
+          if [ -d "documents" ]; then
+            cp -r documents/. .
+            git add .
+            git commit -m "Copy documents to root" || echo "No changes in documents"
+          fi
+          
+          git push origin main
