@@ -3,3 +3,8 @@ node_modules/
 .DS_Store
 public/
 .idea/
+
+# Books subdirectory build artifacts
+books/*/node_modules/
+books/*/.cache/
+books/*/public/
