@@ -52,7 +52,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "npm run build:portfolio && npm run build:books && npm run copy:books",
+    "build:portfolio": "gatsby build --prefix-paths",
+    "build:books": "npm run build:book:agentic-design-patterns",
+    "build:book:agentic-design-patterns": "cd books/agentic-design-patterns && npm install --legacy-peer-deps && npm run build",
+    "copy:books": "npm run copy:book:agentic-design-patterns",
+    "copy:book:agentic-design-patterns": "mkdir -p public/blog/agentic-design-patterns && cp -r books/agentic-design-patterns/public/* public/blog/agentic-design-patterns/",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
