@@ -12,6 +12,7 @@ const SectionExperience = ({ experience }) => {
         <SummaryItem
           key={item.name}
           name={item.name}
+          tenure={item.tenure}
           description={item.description}
           link={item.link}
         />

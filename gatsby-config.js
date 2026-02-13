@@ -5,17 +5,19 @@ module.exports = {
     // Your Name
     name: 'Sai Nikhil Thirandas',
     // Main Site Title
-    title: `Sai Nikhil | Graduate Student - Applied Mathematics | Aspiring Machine Learning Engineer`,
+    title: `Sai Nikhil Thirandas | Lead Machine Learning Engineer @ AWS Bedrock`,
     // Description that goes under your name in main bio
-    description: `I am a graduate student currently pursuing Masters in Applied Mathematics with a concentration in Machine Learning, from Northeastern University. I completed B. Tech (Hons.) from IIT Kharagpur. My primary strengths include Data Structure & Algorithm Implementation, System Designing. Besides this, I hold a strong background in Mathematics, specifically in areas of Calculus, Linear Algebra, Probability & Statistics. I'm looking for looking for fulltime opportunites in the Machine Learning space.`,
+    description: `Lead Machine Learning Engineer at AWS Bedrock with 11 years of overall work experience across distributed systems, machine learning, and generative AI. B. Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Specialized in LLM/Agent evaluation, computer vision, NLP, and large-scale ML infrastructure. Strong foundation in algorithms, system design, and mathematics (Calculus, Linear Algebra, Probability & Statistics). Proven track record of designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
     // Optional: Twitter account handle
     author: `@saint1729`,
     // Optional: Github account URL
     github: `https://github.com/saint1729`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/saint1729/`,
+    // Optional: Instagram account URL (username: saint1729)
+    instagram: `https://www.instagram.com/saint1729/`,
     // Content of the About Me section
-    about: `I'm pursuing a master's degree in Applied Mathematics at Northeastern University - College of Science with a concentration in Machine Learning and Statistics.`,
+    about: `Lead Machine Learning Engineer at AWS Bedrock, specializing in LLM evaluation frameworks, distributed ML systems, and generative AI. Passionate about solving complex problems and driving innovation in machine learning.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -46,23 +48,27 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Microsoft',
-        description: 'Senior Software Engineer, September 2020 - September 2020.',
-        link: 'https://www.microsoft.com/',
+        name: 'Amazon Web Services | Lead Machine Learning Engineer',
+        tenure: 'July 2022 - Present',
+        description: 'Tech lead for Helios (distributed LLM/Agent evaluation framework). Designed custom BPE tokenizer (256K vocab) for Nova models. Built quality classifier models and distributed inference pipelines on AWS EMR. Evaluated LLMs for Artificial Analysis Intelligence Index benchmarks. Implemented license plate recognition system. Co-authored research paper on domain-specific pre-training (DoPAMine).',
+        link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Waterline Data Science',
-        description: 'Senior Software Engineer, December 2018 - August 2020',
+        name: 'Waterline Data Science | Lead Machine Learning Engineer',
+        tenure: 'December 2018 - August 2020',
+        description: '',
         link: 'https://www.hitachivantara.com/en-us/products/data-management-analytics/lumada-data-catalog.html',
       },
       {
-        name: 'Oracle',
-        description: 'Software Engineer II, August 2015 - November 2018',
+        name: 'Oracle | Senior Software Engineer',
+        tenure: 'August 2015 - November 2018',
+        description: '',
         link: 'https://www.oracle.com/erp/project-portfolio-management-cloud/',
       },
       {
-        name: 'Altair Engineering',
-        description: 'Software Engineer, May 2013 - August 2015',
+        name: 'Altair Engineering | Senior Research Engineer',
+        tenure: 'May 2013 - August 2015',
+        description: '',
         link: 'https://www.altair.com/hyperworks/',
       },
     ],
@@ -74,19 +80,19 @@ module.exports = {
           'Python, Java, R, C/C++, MATLAB, Mathematica, SQL, PHP, Perl, HTML, CSS, TypeScript, XML, JSON, Visual Basic',
       },
       {
-        name: 'Machine Learning',
+        name: 'Machine Learning & AI',
         description:
-          'Regression, Classification, Ranking, Clustering, Dimensionality Reduction, Bagging, Boosting, Feature Engineering, Neural Networks, Deep Learning, Computer Vision, Natural Language Processing, Optical Character Recognition, Template Matching',
+          'LLMs, Generative AI, Agent Systems, LLM/Agent Evaluation, Computer Vision, NLP, Deep Learning, Regression, Classification, Ranking, Recommendation Systems, Clustering, Dimensionality Reduction, Feature Engineering, OCR',
       },
       {
-        name: 'Frameworks',
+        name: 'Frameworks & Libraries',
         description:
-          'PyTorch, TensorFlow, OpenCV, NumPy, pandas, Matplotlib, scikit-learn, SymPy, Spark, Angular, Spring, JUnit, Mockito',
+          'PyTorch, TensorFlow, DeepSpeed, vLLM, HuggingFace Transformers, LangChain, CrewAI, Google ADK, OpenCV, NumPy, pandas, Matplotlib, scikit-learn, SymPy, Spark, Hadoop',
       },
       {
-        name: 'Additional',
+        name: 'Tools & Platform',
         description:
-          'Git, Jupyter Notebook, Linux, Docker, Kafka, Hadoop, Hive, Zookeeper, Elasticsearch, PyCharm, IntelliJ IDEA, Oracle BI Publisher',
+          'AWS SageMaker, AWS EMR, AWS Lambda, AWS S3, AWS Step Functions, Git, Docker, Kafka, Hive, Zookeeper, Elasticsearch, Linux, Jupyter Notebook, PyCharm, IntelliJ IDEA',
       },
     ],
   },
