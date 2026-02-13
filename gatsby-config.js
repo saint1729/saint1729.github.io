@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Sai Nikhil Thirandas | Lead Machine Learning Engineer @ AWS Bedrock`,
     // Description that goes under your name in main bio
-    description: `Lead Machine Learning Engineer at AWS Bedrock with 11 years of overall work experience across distributed systems, machine learning, and generative AI. B. Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Specialized in LLM/Agent evaluation, computer vision, NLP, and large-scale ML infrastructure. Strong foundation in algorithms, system design, and mathematics (Calculus, Linear Algebra, Probability & Statistics). Proven track record of designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
+    description: `Lead Machine Learning Engineer at AWS Bedrock, focused on LLM Serving and Evaluation.`,
     // Optional: Twitter account handle
     author: `@saint1729`,
     // Optional: Github account URL
@@ -17,7 +17,13 @@ module.exports = {
     // Optional: Instagram account URL (username: saint1729)
     instagram: `https://www.instagram.com/saint1729/`,
     // Content of the About Me section
-    about: `Lead Machine Learning Engineer at AWS Bedrock, specializing in LLM evaluation frameworks, distributed ML systems, and generative AI. Passionate about solving complex problems and driving innovation in machine learning.`,
+    about: `Lead Machine Learning Engineer at AWS Bedrock with 11 years of experience across distributed systems, machine learning, and generative AI. Architected Helios, an LLM/Agent evaluation framework.
+
+Holds a B.Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Strong foundation in Data Structures & Algorithms, System Designing, and Mathematics (Calculus, Linear Algebra, Probability & Statistics).
+
+Core expertise includes LLM/Agent evaluation, ML Model Serving, Computer Vision, NLP, and Distributed Computing. Built quality classifier models and distributed inference pipelines. Designed custom BPE tokenizer (256K vocab) for Nova models. Evaluated LLMs on Artificial Analysis Intelligence Index benchmarks.
+
+Proficient in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK for building production ML systems. Co-authored research paper on domain-specific pre-training (DoPAMine). Passionate about designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -50,7 +56,7 @@ module.exports = {
       {
         name: 'Amazon Web Services | Lead Machine Learning Engineer',
         tenure: 'July 2022 - Present',
-        description: 'Tech lead for Helios (distributed LLM/Agent evaluation framework). Designed custom BPE tokenizer (256K vocab) for Nova models. Built quality classifier models and distributed inference pipelines on AWS EMR. Evaluated LLMs for Artificial Analysis Intelligence Index benchmarks. Implemented license plate recognition system. Co-authored research paper on domain-specific pre-training (DoPAMine).',
+        description: '', /*Tech lead for Helios (LLM/Agent evaluation framework). Designed custom BPE tokenizer (256K vocab) for Nova models. Built quality classifier models and distributed inference pipelines on AWS EMR. Evaluated LLMs for Artificial Analysis Intelligence Index benchmarks. Implemented license plate recognition system. Co-authored research paper on domain-specific pre-training (DoPAMine).',/**/
         link: 'https://aws.amazon.com/',
       },
       {
