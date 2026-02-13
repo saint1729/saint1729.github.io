@@ -17,6 +17,12 @@ jobs:
           ref: dev
           fetch-depth: 0
       
+      - name: Configure Git with PAT
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.portfolio }}@github.com/saint1729/saint1729.github.io.git
+      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -34,8 +40,6 @@ jobs:
       - name: Merge dev to main and copy documents
         if: success()
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
           git checkout main
           git merge dev --no-ff --allow-unrelated-histories -m "Auto-merge dev to main after successful build"
           
