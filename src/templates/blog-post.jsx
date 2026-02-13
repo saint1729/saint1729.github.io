@@ -44,6 +44,7 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        instagram
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
