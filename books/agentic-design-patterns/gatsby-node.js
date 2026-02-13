@@ -174,6 +174,51 @@ exports.onPreInit = async ({ reporter }) => {
     }
   });
   
+  // Generate navigation order dynamically
+  console.log('Generating navigation order...');
+  
+  const navOrder = ['/'];  // Always start with index
+  
+  // Read all chapter directories and their main markdown files
+  const chapterData = chapters
+    .map(chapter => {
+      const chapterPath = path.join(contentDir, chapter);
+      const files = fs.readdirSync(chapterPath);
+      const mainMdFile = files.find(f => f.endsWith('.md') && !f.includes('README'));
+      
+      if (!mainMdFile) {
+        return null;
+      }
+      
+      // Extract chapter number (e.g., "chapter_01" -> 1)
+      const chapterNum = parseInt(chapter.replace('chapter_', ''), 10);
+      
+      // Get the filename without extension for the URL slug
+      const slug = mainMdFile.replace('.md', '');
+      
+      return {
+        chapterNum,
+        path: `/${chapter}/${slug}`
+      };
+    })
+    .filter(item => item !== null)
+    .sort((a, b) => a.chapterNum - b.chapterNum);
+  
+  // Add all chapter paths to navigation order
+  chapterData.forEach(({ path }) => navOrder.push(path));
+  
+  // Write the navigation order to a file that config.js can import
+  const navOrderPath = path.join(__dirname, 'navigation-order.js');
+  const navOrderContent = `// Auto-generated navigation order - DO NOT EDIT MANUALLY
+// This file is regenerated on every build based on content from GitHub
+
+module.exports = ${JSON.stringify(navOrder, null, 2)};
+`;
+  
+  fs.writeFileSync(navOrderPath, navOrderContent);
+  console.log(`✓ Generated navigation order with ${navOrder.length} entries`);
+  console.log('  Navigation:', navOrder.join(' → '));
+  
   console.log('✓ Content sync completed with code examples!');
 };
 

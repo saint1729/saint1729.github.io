@@ -8,3 +8,6 @@ public/
 books/*/node_modules/
 books/*/.cache/
 books/*/public/
+
+# Auto-generated navigation files
+books/*/navigation-order.js
