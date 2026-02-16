@@ -17,7 +17,7 @@ module.exports = {
     // Optional: Instagram account URL (username: saint1729)
     instagram: `https://www.instagram.com/saint1729/`,
     // Content of the About Me section
-    about: `Machine Learning Engineer at AWS Bedrock with 11 years of total work experience across distributed systems, machine learning, and Generative AI. Holds a B.Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Strong foundation in Data Structures & Algorithms, System Designing, and Mathematics (Calculus, Linear Algebra, Probability & Statistics).
+    about: `Machine Learning Engineer at AWS Bedrock with 11 years of overall work experience across Distributed Systems, Machine Learning, and Generative AI. Holds a B.Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Strong foundation in Data Structures & Algorithms, System Designing, and Mathematics (Calculus, Linear Algebra, Probability & Statistics).
 
 Core expertise includes LLM/Agent evaluation, ML Model Serving, NLP, Computer Vision, and Distributed Computing. Proficient in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK for building production ML systems. Co-authored research paper on domain-specific pre-training (DoPAMine). Passionate about designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
