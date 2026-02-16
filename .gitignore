@@ -11,3 +11,6 @@ books/*/public/
 
 # Auto-generated navigation files
 books/*/navigation-order.js
+
+# Auto-generated content from GitHub repos
+books/*/content/chapter_*/

@@ -38,6 +38,12 @@ jobs:
         env:
           NODE_OPTIONS: "--max-old-space-size=4096"
       
+      - name: Clean up generated content before merge
+        run: |
+          # Remove generated content directories that would conflict with checkout
+          rm -rf books/*/content/chapter_*/
+          rm -f books/*/navigation-order.js
+      
       - name: Merge dev to main and copy documents
         if: success()
         run: |
