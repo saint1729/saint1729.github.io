@@ -56,7 +56,7 @@ Core expertise includes LLM/Agent evaluation, ML Model Serving, NLP, Computer Vi
         link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Waterline Data Science | Lead Machine Learning Engineer',
+        name: 'Hitachi Vantara | Lead Machine Learning Engineer',
         tenure: 'December 2018 - August 2020',
         description: '',
         link: 'https://www.hitachivantara.com/en-us/products/data-management-analytics/lumada-data-catalog.html',
