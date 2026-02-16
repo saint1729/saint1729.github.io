@@ -17,13 +17,9 @@ module.exports = {
     // Optional: Instagram account URL (username: saint1729)
     instagram: `https://www.instagram.com/saint1729/`,
     // Content of the About Me section
-    about: `Lead Machine Learning Engineer at AWS Bedrock with 11 years of experience across distributed systems, machine learning, and generative AI. Architected Helios, an LLM/Agent evaluation framework.
+    about: `Machine Learning Engineer at AWS Bedrock with 11 years of total work experience across distributed systems, machine learning, and Generative AI. Holds a B.Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Strong foundation in Data Structures & Algorithms, System Designing, and Mathematics (Calculus, Linear Algebra, Probability & Statistics).
 
-Holds a B.Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Strong foundation in Data Structures & Algorithms, System Designing, and Mathematics (Calculus, Linear Algebra, Probability & Statistics).
-
-Core expertise includes LLM/Agent evaluation, ML Model Serving, Computer Vision, NLP, and Distributed Computing. Built quality classifier models and distributed inference pipelines. Designed custom BPE tokenizer (256K vocab) for Nova models. Evaluated LLMs on Artificial Analysis Intelligence Index benchmarks.
-
-Proficient in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK for building production ML systems. Co-authored research paper on domain-specific pre-training (DoPAMine). Passionate about designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
+Core expertise includes LLM/Agent evaluation, ML Model Serving, NLP, Computer Vision, and Distributed Computing. Proficient in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK for building production ML systems. Co-authored research paper on domain-specific pre-training (DoPAMine). Passionate about designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -54,7 +50,7 @@ Proficient in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK for buildin
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Amazon Web Services | Lead Machine Learning Engineer',
+        name: 'Amazon Web Services | Machine Learning Engineer',
         tenure: 'July 2022 - Present',
         description: '', /*Tech lead for Helios (LLM/Agent evaluation framework). Designed custom BPE tokenizer (256K vocab) for Nova models. Built quality classifier models and distributed inference pipelines on AWS EMR. Evaluated LLMs for Artificial Analysis Intelligence Index benchmarks. Implemented license plate recognition system. Co-authored research paper on domain-specific pre-training (DoPAMine).',/**/
         link: 'https://aws.amazon.com/',
