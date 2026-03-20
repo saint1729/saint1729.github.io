@@ -50,19 +50,19 @@ Core expertise includes LLM/Agent evaluation, ML Model Serving, NLP, Computer Vi
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Amazon Web Services | Machine Learning Engineer',
+        name: 'Amazon Web Services | Lead Machine Learning Engineer',
         tenure: 'July 2022 - Present',
         description: '', /*Tech lead for Helios (LLM/Agent evaluation framework). Designed custom BPE tokenizer (256K vocab) for Nova models. Built quality classifier models and distributed inference pipelines on AWS EMR. Evaluated LLMs for Artificial Analysis Intelligence Index benchmarks. Implemented license plate recognition system. Co-authored research paper on domain-specific pre-training (DoPAMine).',/**/
         link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Hitachi Vantara | Lead Machine Learning Engineer',
+        name: 'Hitachi Vantara | Staff Machine Learning Engineer',
         tenure: 'December 2018 - August 2020',
         description: '',
         link: 'https://www.hitachivantara.com/en-us/products/data-management-analytics/lumada-data-catalog.html',
       },
       {
-        name: 'Oracle | Senior Software Engineer',
+        name: 'Oracle | Senior Member of Technical Staff',
         tenure: 'August 2015 - November 2018',
         description: '',
         link: 'https://www.oracle.com/erp/project-portfolio-management-cloud/',
