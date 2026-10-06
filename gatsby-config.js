@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Sai Nikhil Thirandas',
     // Main Site Title
-    title: `Sai Nikhil Thirandas | Lead Machine Learning Engineer @ AWS Bedrock`,
+    title: `Sai Nikhil Thirandas | Engineering Leader - Machine Learning @ AWS Bedrock`,
     // Description that goes under your name in main bio
-    description: `Lead Machine Learning Engineer at AWS Bedrock, focused on LLM Serving and Evaluation.`,
+    description: `Engineering Leader - Machine Learning at AWS Bedrock, focused on LLM Serving and Evaluation.`,
     // Optional: Twitter account handle
     author: `@saint1729`,
     // Optional: Github account URL
@@ -17,9 +17,11 @@ module.exports = {
     // Optional: Instagram account URL (username: saint1729)
     instagram: `https://www.instagram.com/saint1729/`,
     // Content of the About Me section
-    about: `Machine Learning Engineer at AWS Bedrock with 11 years of overall work experience across Distributed Systems, Machine Learning, and Generative AI. Holds a B.Tech (Hons.) from IIT Kharagpur and M.S. in Applied Mathematics from Northeastern University. Strong foundation in Data Structures & Algorithms, System Designing, and Mathematics (Calculus, Linear Algebra, Probability & Statistics).
+    about: `I build and lead teams that take machine learning from research notebooks to systems serving real traffic. 13 years in, my work spans distributed systems, machine learning, and generative AI — most recently at AWS Bedrock, where I lead engineering for LLM and agent evaluation.
 
-Core expertise includes LLM/Agent evaluation, ML Model Serving, NLP, Computer Vision, and Distributed Computing. Proficient in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK for building production ML systems. Co-authored research paper on domain-specific pre-training (DoPAMine). Passionate about designing innovative solutions that improve accuracy, efficiency, and reliability in production ML systems.`,
+My toolkit is equal parts applied research and distributed systems: a B.Tech (Hons.) from IIT Kharagpur, an M.S. in Applied Mathematics from Northeastern, and a stubborn interest in why models behave the way they do. I work across LLM/agent evaluation, model serving, NLP, computer vision, and distributed computing — in PyTorch, TensorFlow, LangChain, CrewAI, and Google ADK — and co-authored DoPAMine, a research paper on domain-specific pre-training.
+
+What I care about most is the unglamorous part: making production ML measurably more accurate, more efficient, and more trustworthy than it was yesterday.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -50,13 +52,13 @@ Core expertise includes LLM/Agent evaluation, ML Model Serving, NLP, Computer Vi
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Amazon Web Services | Lead Machine Learning Engineer',
+        name: 'Amazon Web Services | Engineering Leader - Machine Learning',
         tenure: 'July 2022 - Present',
         description: '', /*Tech lead for Helios (LLM/Agent evaluation framework). Designed custom BPE tokenizer (256K vocab) for Nova models. Built quality classifier models and distributed inference pipelines on AWS EMR. Evaluated LLMs for Artificial Analysis Intelligence Index benchmarks. Implemented license plate recognition system. Co-authored research paper on domain-specific pre-training (DoPAMine).',/**/
         link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Hitachi Vantara | Staff Machine Learning Engineer',
+        name: 'Hitachi Vantara | Engineering Manager, Machine Learning',
         tenure: 'December 2018 - August 2020',
         description: '',
         link: 'https://www.hitachivantara.com/en-us/products/data-management-analytics/lumada-data-catalog.html',
